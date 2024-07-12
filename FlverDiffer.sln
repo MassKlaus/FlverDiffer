@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlverDiffer.CLI", "FlverDiffer.CLI\FlverDiffer.CLI.csproj", "{F1E1E1B8-702F-4B15-BFEA-B547F8A72290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoulsFormatsNEXT", "SoulsFormatsNEXT", "{18E7FD31-127E-41C6-833C-0212A2A20B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoulsFormats", "SoulsFormatsNEXT\SoulsFormats\SoulsFormats.csproj", "{422BEDB4-1309-4F5E-97BF-F199456D7F1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E1E1B8-702F-4B15-BFEA-B547F8A72290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E1E1B8-702F-4B15-BFEA-B547F8A72290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E1E1B8-702F-4B15-BFEA-B547F8A72290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E1E1B8-702F-4B15-BFEA-B547F8A72290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422BEDB4-1309-4F5E-97BF-F199456D7F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422BEDB4-1309-4F5E-97BF-F199456D7F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422BEDB4-1309-4F5E-97BF-F199456D7F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422BEDB4-1309-4F5E-97BF-F199456D7F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{422BEDB4-1309-4F5E-97BF-F199456D7F1C} = {18E7FD31-127E-41C6-833C-0212A2A20B2D}
+	EndGlobalSection
+EndGlobal
