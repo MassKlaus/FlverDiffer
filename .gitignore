@@ -3,7 +3,7 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
-result.html
+**/result.html
 
 # dotenv files
 .env
